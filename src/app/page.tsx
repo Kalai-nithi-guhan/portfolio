@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, Phone, ChevronDown, Menu, X, ExternalLink, Calendar, Briefcase, GraduationCap, Code, Database, Cloud, Wrench, User, Trophy } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, ChevronDown, Menu, X, ExternalLink, Calendar, Briefcase, GraduationCap, Code, Database, Cloud, Wrench, Trophy } from 'lucide-react';
 
 const resume = {
   name: "Kalai Nithi Guhan M",
@@ -167,22 +167,11 @@ export default function Portfolio() {
               <div className="relative">
                 <div className="w-80 h-80 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
                   <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
-                    {/* Replace this div with your actual image */}
-                    {/* <div className="w-full h-full bg-gradient-to-br from-blue-400/20 to-purple-400/20 flex items-center justify-center">
-                      <User size={120} className="text-gray-400" />
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="text-gray-400 text-sm bg-gray-800/80 px-3 py-1 rounded-full">
-                          Add Your Photo Here
-                        </span>
-                      </div>
-                    </div> */}
-                    { //To add your image, replace the div above with:
                     <img 
                       src="https://i.ibb.co/VW4Lvr5x/kalaiimg.jpg" 
                       alt="Kalai Nithi Guhan M"
                       className="w-full h-full object-cover"
                     />
-                    }
                   </div>
                 </div>
                 <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-purple-600/20 rounded-full blur-xl -z-10"></div>
@@ -251,7 +240,7 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I'm a passionate software engineering student with a strong foundation in computer science and hands-on experience building AI-powered web applications. Currently pursuing my B.E. in Computer Science at MCET with a CGPA of 8.67/10.
+                I&apos;m a passionate software engineering student with a strong foundation in computer science and hands-on experience building AI-powered web applications. Currently pursuing my B.E. in Computer Science at MCET with a CGPA of 8.67/10.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 My journey in tech has led me to explore various domains including web development, computer vision, and machine learning. I love creating solutions that combine cutting-edge technology with practical applications.
@@ -431,9 +420,9 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="space-y-8">
               <div>
-                <h3 className="text-2xl font-semibold mb-6 text-gray-200">Let's Connect</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-gray-200">Let&apos;s Connect</h3>
                 <p className="text-lg text-gray-400 leading-relaxed">
-                  I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology. Feel free to reach out!
+                  I&apos;m always open to discussing new opportunities, interesting projects, or just having a chat about technology. Feel free to reach out!
                 </p>
               </div>
               
@@ -554,4 +543,3 @@ export default function Portfolio() {
     </div>
   );
 }
-//
